@@ -12,12 +12,16 @@ import ClientList from "./pages/clients/ClientList";
 import CreateClient from "./pages/clients/CreateClient";
 import CreateProduct from "./pages/products/CreateProduct";
 import ProductsList from "./pages/products/ProductsList";
+import Landing from "./pages/landing";
 
 function App() {
   return (
     <>
       <Routes>
         <Route element={<GuestRoutes />}>
+          <Route element={<GuestLayout/>}>
+            <Route path="/" element={<Landing/>}/>
+          </Route>
           <Route element={<AuthLayout />}>
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
