@@ -14,6 +14,8 @@ import CreateProduct from "./pages/products/CreateProduct";
 import ProductsList from "./pages/products/ProductsList";
 import Landing from "./pages/landing";
 import InvoiceSettings from "./pages/settings/InvoiceSettings";
+import InvoiceCreate from "./pages/invoices/InvoiceCreate";
+import InvoiceList from "./pages/invoices/InvoiceList";
 
 function App() {
   return (
@@ -37,6 +39,8 @@ function App() {
           <Route path="/products" element={<ProductsList />} />
           <Route path="/products/create" element={<CreateProduct />} />
           <Route path="/settings/invoice-settings" element={<InvoiceSettings />} />
+          <Route path="/invoices" element={<InvoiceList />} />
+          <Route path="/invoice/create" element={<InvoiceCreate />} />
         </Route>
         </Route>
       </Routes>

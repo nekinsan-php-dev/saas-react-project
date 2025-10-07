@@ -15,7 +15,7 @@ function Sidebar() {
 
   const menuItems = [
     { name: "Dashboard", icon: <LayoutDashboard size={20} />, to: "/dashboard" },
-    { name: "Invoices", icon: <FileText size={20} />, href: "#" },
+    { name: "Invoices", icon: <FileText size={20} />, to: "/invoices" },
     { name: "Clients", icon: <Users size={20} />, to: "/clients" },
     { name: "Products", icon: <Package size={20} />, to: "/products" },
     { name: "Settings", icon: <Settings size={20} />, to: "/settings/invoice-settings" },
