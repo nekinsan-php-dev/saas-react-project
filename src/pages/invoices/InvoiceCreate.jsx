@@ -315,7 +315,7 @@ function InvoiceCreate() {
        <ProductDrawerForm
     isOpen={isProductDrawerOpen}
     onClose={() => setIsProductDrawerOpen(false)}
-    onCreated={() => refreshProducts()} // refresh product list
+    onCreated={() => refreshProducts()} 
   />
     </div>
   );
