@@ -18,7 +18,7 @@ function Sidebar() {
     { name: "Invoices", icon: <FileText size={20} />, href: "#" },
     { name: "Clients", icon: <Users size={20} />, to: "/clients" },
     { name: "Products", icon: <Package size={20} />, to: "/products" },
-    { name: "Settings", icon: <Settings size={20} />, href: "#" },
+    { name: "Settings", icon: <Settings size={20} />, to: "/settings/invoice-settings" },
   ];
 
   return (

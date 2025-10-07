@@ -13,6 +13,7 @@ import CreateClient from "./pages/clients/CreateClient";
 import CreateProduct from "./pages/products/CreateProduct";
 import ProductsList from "./pages/products/ProductsList";
 import Landing from "./pages/landing";
+import InvoiceSettings from "./pages/settings/InvoiceSettings";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
           <Route path="/clients/new" element={<CreateClient />} />
           <Route path="/products" element={<ProductsList />} />
           <Route path="/products/create" element={<CreateProduct />} />
+          <Route path="/settings/invoice-settings" element={<InvoiceSettings />} />
         </Route>
         </Route>
       </Routes>
